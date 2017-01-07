@@ -16,3 +16,7 @@ pipelines:
           - pip install psycopg2 redis
           - python test.py
 ```
+
+See the main repository on bitbucket, where the above pipeline file is used to test this template.
+
+[https://bitbucket.org/brthornbury/bitbucket-pipelines-python-postgres-redis](https://bitbucket.org/brthornbury/bitbucket-pipelines-python-postgres-redis)
