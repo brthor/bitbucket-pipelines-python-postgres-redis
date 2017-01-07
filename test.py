@@ -24,6 +24,6 @@ redis.ping()
 redis.set("key", 1)
 redis_val = redis.get("key")
 
-print "Redis Val:", redis_val
-if redis_val != 1:
+print "Redis Val:", repr(redis_val)
+if redis_val != "1":
 	raise Exception("Failed to set and get redis value")
