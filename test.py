@@ -1,4 +1,4 @@
-import psycopg2
+import psycopg2, redis
 
 connection = psycopg2.connect(
     database="testdb",

@@ -3,7 +3,7 @@
 Python, Postgresql, and Redis are included. Use this template for your `bitbucket-pipelines.yml`
 
 ```
-image: brthornbury/python-postgres-redis
+image: brthornbury/bitbucket-pipelines-python-postgres-redis
 
 pipelines:
   default:
