@@ -21,7 +21,7 @@ redis = redis.StrictRedis(
 
 redis.ping()
 
-redis.put("key", 1)
+redis.set("key", 1)
 redis_val = redis.get("key")
 
 print "Redis Val:", redis_val
